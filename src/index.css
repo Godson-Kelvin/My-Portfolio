@@ -131,13 +131,13 @@ code {
 }
 
 html {
-  min-width: 320px;
+  min-width: 0;
   scroll-behavior: smooth;
   scroll-padding-top: 90px;
 }
 
 body {
-  min-width: 320px;
+  min-width: 0;
   margin: 0;
 }
 
