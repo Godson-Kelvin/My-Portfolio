@@ -16,8 +16,9 @@ function Header() {
   return (
     <header className="site-header" id="top">
       <div className="site-shell mx-auto w-full max-w-[1200px] px-6 max-[600px]:px-[18px] header-inner">
-        <a className="brand" href="#top" aria-label="Frimpong Kelvin, home" onClick={closeMenu}>
-          <img className="brand-logo" src="/cyberkel-logo.jpg" alt="CyberKel" />
+        <a className="brand" href="#top" aria-label="CyberKel, Frimpong Kelvin home" onClick={closeMenu}>
+          <img className="brand-logo" src="/cyberkel-logo.jpg" alt="" aria-hidden="true" />
+          <span className="brand-name">CyberKel</span>
         </a>
         <nav className="desktop-nav" aria-label="Main navigation">
           {links.map((link) => <a href={link.href} key={link.href}>{link.label}</a>)}

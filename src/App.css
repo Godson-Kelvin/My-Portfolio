@@ -233,10 +233,21 @@
 
 .brand-logo {
   display: block;
-  width: 100px;
-  height: 70px;
+  width: 58px;
+  height: 58px;
+  flex: 0 0 58px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: #fff;
   object-fit: contain;
-  mix-blend-mode: multiply;
+}
+
+.brand-name {
+  color: var(--ink);
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  white-space: nowrap;
 }
 
 .desktop-nav {
